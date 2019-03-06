@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NavigationDrawerStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="android:textSize">16sp</item><!-- text size in menu-->
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="ActionBarThemeOverlay" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <!-- Used to color the text of the action menu icons -->
+        <item name="android:textColorSecondary">@color/white</item>
+        <!-- navigation icon color -->
+        <item name="colorControlNormal">@color/black</item>
+        <item name="drawerArrowStyle">@style/NavigationDrawerStyle</item>
+    </style>
+
+</resources>

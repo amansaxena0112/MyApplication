@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="cant_reach_server">Unable to reach our server. Check network connection!</string>
+    <string name="invalid_session">Invalid session token! Try login again.</string>
+    <string name="server_error">Something went wrong, Try again!</string>
+    <string name="please_wait">Please wait...</string>
+</resources>
